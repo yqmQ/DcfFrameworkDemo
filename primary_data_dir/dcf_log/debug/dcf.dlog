@@ -1,0 +1,44 @@
+UTC+8 2022-11-04 22:43:23.198|DCF|27461|ERROR>[MEC]failed to create lsnr sockets for listener type 0
+UTC+8 2022-11-04 22:43:23.198|DCF|27461|ERROR>[MEC]start tcp lsnr failed.
+UTC+8 2022-11-04 22:43:23.198|DCF|27461|ERROR>[MEC]start lsnr failed.
+UTC+8 2022-11-04 22:43:23.240|DCF|27461|ERROR>network init failed, error code=507, error info=Failed to bind socket for 172.19.0.202:20200, error code 99
+UTC+8 2022-11-04 22:43:23.242|DCF|27461|ERROR>[MEC]failed to create lsnr sockets for listener type 0
+UTC+8 2022-11-04 22:43:23.243|DCF|27461|ERROR>[MEC]start tcp lsnr failed.
+UTC+8 2022-11-04 22:43:23.243|DCF|27461|ERROR>[MEC]start lsnr failed.
+UTC+8 2022-11-04 22:43:23.285|DCF|27461|ERROR>network init failed, error code=507, error info=Failed to bind socket for 172.19.0.202:20200, error code 99
+UTC+8 2022-11-04 22:43:23.288|DCF|27461|ERROR>[MEC]failed to create lsnr sockets for listener type 0
+UTC+8 2022-11-04 22:43:23.288|DCF|27461|ERROR>[MEC]start tcp lsnr failed.
+UTC+8 2022-11-04 22:43:23.288|DCF|27461|ERROR>[MEC]start lsnr failed.
+UTC+8 2022-11-04 22:43:23.330|DCF|27461|ERROR>network init failed, error code=507, error info=Failed to bind socket for 172.19.0.202:20200, error code 99
+UTC+8 2022-11-04 22:43:23.333|DCF|27461|ERROR>[MEC]failed to create lsnr sockets for listener type 0
+UTC+8 2022-11-04 22:43:23.333|DCF|27461|ERROR>[MEC]start tcp lsnr failed.
+UTC+8 2022-11-04 22:43:23.333|DCF|27461|ERROR>[MEC]start lsnr failed.
+UTC+8 2022-11-04 22:43:23.375|DCF|27461|ERROR>network init failed, error code=507, error info=Failed to bind socket for 172.19.0.202:20200, error code 99
+UTC+8 2022-11-04 22:43:23.378|DCF|27461|ERROR>[MEC]failed to create lsnr sockets for listener type 0
+UTC+8 2022-11-04 22:43:23.378|DCF|27461|ERROR>[MEC]start tcp lsnr failed.
+UTC+8 2022-11-04 22:43:23.378|DCF|27461|ERROR>[MEC]start lsnr failed.
+UTC+8 2022-11-04 22:43:23.421|DCF|27461|ERROR>network init failed, error code=507, error info=Failed to bind socket for 172.19.0.202:20200, error code 99
+UTC+8 2022-11-04 22:43:23.424|DCF|27461|ERROR>[MEC]failed to create lsnr sockets for listener type 0
+UTC+8 2022-11-04 22:43:23.424|DCF|27461|ERROR>[MEC]start tcp lsnr failed.
+UTC+8 2022-11-04 22:43:23.424|DCF|27461|ERROR>[MEC]start lsnr failed.
+UTC+8 2022-11-04 22:43:23.466|DCF|27461|ERROR>network init failed, error code=507, error info=Failed to bind socket for 172.19.0.202:20200, error code 99
+UTC+8 2022-11-04 22:43:23.469|DCF|27461|ERROR>[MEC]failed to create lsnr sockets for listener type 0
+UTC+8 2022-11-04 22:43:23.469|DCF|27461|ERROR>[MEC]start tcp lsnr failed.
+UTC+8 2022-11-04 22:43:23.469|DCF|27461|ERROR>[MEC]start lsnr failed.
+UTC+8 2022-11-04 22:43:23.511|DCF|27461|ERROR>network init failed, error code=507, error info=Failed to bind socket for 172.19.0.202:20200, error code 99
+UTC+8 2022-11-04 22:43:23.514|DCF|27461|ERROR>[MEC]failed to create lsnr sockets for listener type 0
+UTC+8 2022-11-04 22:43:23.514|DCF|27461|ERROR>[MEC]start tcp lsnr failed.
+UTC+8 2022-11-04 22:43:23.514|DCF|27461|ERROR>[MEC]start lsnr failed.
+UTC+8 2022-11-04 22:43:23.556|DCF|27461|ERROR>network init failed, error code=507, error info=Failed to bind socket for 172.19.0.202:20200, error code 99
+UTC+8 2022-11-04 22:43:23.560|DCF|27461|ERROR>[MEC]failed to create lsnr sockets for listener type 0
+UTC+8 2022-11-04 22:43:23.560|DCF|27461|ERROR>[MEC]start tcp lsnr failed.
+UTC+8 2022-11-04 22:43:23.560|DCF|27461|ERROR>[MEC]start lsnr failed.
+UTC+8 2022-11-04 22:43:23.602|DCF|27461|ERROR>network init failed, error code=507, error info=Failed to bind socket for 172.19.0.202:20200, error code 99
+UTC+8 2022-11-04 22:43:23.605|DCF|27461|ERROR>[MEC]failed to create lsnr sockets for listener type 0
+UTC+8 2022-11-04 22:43:23.605|DCF|27461|ERROR>[MEC]start tcp lsnr failed.
+UTC+8 2022-11-04 22:43:23.605|DCF|27461|ERROR>[MEC]start lsnr failed.
+UTC+8 2022-11-04 22:43:23.647|DCF|27461|ERROR>network init failed, error code=507, error info=Failed to bind socket for 172.19.0.202:20200, error code 99
+UTC+8 2022-11-04 22:43:23.650|DCF|27461|ERROR>LOG_SUPPRESS_BEGIN>[MEC]failed to create lsnr sockets for listener type 0
+UTC+8 2022-11-04 22:43:23.651|DCF|27461|ERROR>LOG_SUPPRESS_BEGIN>[MEC]start tcp lsnr failed.
+UTC+8 2022-11-04 22:43:23.651|DCF|27461|ERROR>LOG_SUPPRESS_BEGIN>[MEC]start lsnr failed.
+UTC+8 2022-11-04 22:43:23.692|DCF|27461|ERROR>LOG_SUPPRESS_BEGIN>network init failed, error code=507, error info=Failed to bind socket for 172.19.0.202:20200, error code 99

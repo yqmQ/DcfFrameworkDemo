@@ -139,6 +139,7 @@ EXPORT_API int dcf_register_after_writer(usr_cb_after_writer_t cb_func);
 /*
     Callback function after dcf_write successfully in follower node
 */
+// dcf_set commit?
 EXPORT_API int dcf_register_consensus_notify(usr_cb_consensus_notify_t cb_func);
 
 /*
