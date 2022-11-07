@@ -8440,3 +8440,7 @@ UTC+8 2022-11-08 01:34:45.058|DCF|50377|INFO>dcf start, node_id=1 cfg_str=[{"str
 UTC+8 2022-11-08 01:34:54.979|DCF|50377|INFO>dcf stop
 UTC+8 2022-11-08 01:35:40.424|DCF|50538|INFO>dcf start, node_id=1 cfg_str=[{"stream_id" : 1, "node_id" : 1, "ip" : "172.19.0.202", "port" : 20200,"role" : "LEADER"}, {"stream_id" : 1, "node_id" : 2, "ip" : "172.19.0.203", "port" : 20200, "role" : "FOLLOWER"}, {"stream_id" : 1, "node_id" : 3, "ip" : "172.19.0.204", "port" : 20200, "role" : "FOLLOWER"} ]
 UTC+8 2022-11-08 01:35:47.477|DCF|50538|INFO>dcf stop
+UTC+8 2022-11-08 01:51:27.502|DCF|51532|INFO>dcf start, node_id=1 cfg_str=[{"stream_id" : 1, "node_id" : 1, "ip" : "172.19.0.202", "port" : 20200,"role" : "LEADER"}, {"stream_id" : 1, "node_id" : 2, "ip" : "172.19.0.203", "port" : 20200, "role" : "FOLLOWER"}, {"stream_id" : 1, "node_id" : 3, "ip" : "172.19.0.204", "port" : 20200, "role" : "FOLLOWER"} ]
+UTC+8 2022-11-08 01:51:38.527|DCF|51532|INFO>dcf stop
+UTC+8 2022-11-08 01:52:54.145|DCF|51779|INFO>dcf start, node_id=1 cfg_str=[{"stream_id" : 1, "node_id" : 1, "ip" : "172.19.0.202", "port" : 20200,"role" : "LEADER"}, {"stream_id" : 1, "node_id" : 2, "ip" : "172.19.0.203", "port" : 20200, "role" : "FOLLOWER"}, {"stream_id" : 1, "node_id" : 3, "ip" : "172.19.0.204", "port" : 20200, "role" : "FOLLOWER"} ]
+UTC+8 2022-11-08 01:53:00.375|DCF|51779|INFO>dcf stop

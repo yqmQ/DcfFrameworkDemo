@@ -211,7 +211,7 @@ void Exit_Dcf(inputBuffer *buf)
 }
 
 char buf[1024] = {'\0'};
-char *Read_Dcf_start_Config()
+void Read_Dcf_start_Config(char *config)
 {
     int fd = open("../DcfFrameworkDemoConfig.json", O_RDONLY);
     if (fd == -1)
@@ -219,17 +219,22 @@ char *Read_Dcf_start_Config()
         printf("can not open the DcfFrameworkConfig.json file.\n");
         exit(EXIT_FAILURE);
     }
-    int len = read(fd, buf, 1024);
+    int len = read(fd, config, 1024);
+    if(len<0){
+        printf("The start config is NULL.\n");
+    }
 
     close(fd);
 
-    return buf;
 }
 
 int main(int argc, char *argv[])
 { // Read_Buffer is designed for dcf_read.
-    char *Read_Buffer;
-    char *dcf_start_config = Read_Dcf_start_Config();
+    char *dcf_start_config=(char *)malloc(1024);
+    if(dcf_start_config==NULL){
+        printf("Can't allocate memory.\n");
+    }
+     Read_Dcf_start_Config(dcf_start_config);
     if (!Set_dcf_param())
     {
         printf("Set Dcf params fail,exit!\n");
@@ -250,7 +255,7 @@ int main(int argc, char *argv[])
     start = clock();
     while (((double)(clock() - start) / CLOCKS_PER_SEC) < duration)
     {
-        if (dcf_start(1, dcf_start_config) != 0)
+        if (dcf_start(1,dcf_start_config) != 0)
         {
 
             if (((double)(clock() - print_last_time) / CLOCKS_PER_SEC) > 1)

@@ -8909,3 +8909,95 @@ UTC+8 2022-11-08 01:35:49.443|DCF|50555|INFO>[REP] stream_id  node_id     role  
 UTC+8 2022-11-08 01:35:49.443|DCF|50555|INFO>[REP]         1        1        0        0        0 (0,0)            (0,0)           
 UTC+8 2022-11-08 01:35:50.441|DCF|50550|INFO>[STG]:stm id    stm fst   stm last    stg fst   stg last    applied cache begin stm mem used
 UTC+8 2022-11-08 01:35:50.441|DCF|50550|INFO>[STG]:     1          1          0          1          0          0           1            0
+UTC+8 2022-11-08 01:51:27.524|DCF|51548|INFO>[TIME][51548]rep_apply_proc                         0(us),count:         1,avg:         0(us)
+UTC+8 2022-11-08 01:51:27.525|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:51:27.526|DCF|51549|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-08 01:51:27.526|DCF|51549|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
+UTC+8 2022-11-08 01:51:28.525|DCF|51547|INFO>[TIME][51547]rep_follower_acceptlog_proc            0(us),count:         1,avg:         0(us)
+UTC+8 2022-11-08 01:51:28.525|DCF|51547|INFO>[TIME][51547]rep_acceptlog_proc                     0(us),count:         1,avg:         0(us)
+UTC+8 2022-11-08 01:51:28.676|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:51:29.827|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:51:30.526|DCF|51549|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-08 01:51:30.526|DCF|51549|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
+UTC+8 2022-11-08 01:51:30.528|DCF|51554|INFO>[STAT] DCFWriteCount        DCFWriteSize(MB)     DiskWriteAvg(ms)     SendPackSize(MB)     SendDelayAvg(ms)     SendWaitAvg(ms)      RecvDelayAvg(ms)     
+UTC+8 2022-11-08 01:51:30.528|DCF|51554|INFO>[STAT] 0                    0.000                0.000                0.000                0.000                0.000                0.000                
+UTC+8 2022-11-08 01:51:30.528|DCF|51554|INFO>[STAT] SendQueueLowCount    RecvQueueLowCount    SendQueueHighCount   RecvQueueHighCount   StgMemUsed(MB)       MecSendMem(MB)       MecRecvMem(MB)       
+UTC+8 2022-11-08 01:51:30.528|DCF|51554|INFO>[STAT] 0                    0                    0                    0                    0.000                16.647               0.000                
+UTC+8 2022-11-08 01:51:30.528|DCF|51554|INFO>[STAT] HBSendCount          HBRecvCount          HBRTTAvg(ms)         MecBuddyMem(MB)      
+UTC+8 2022-11-08 01:51:30.528|DCF|51554|INFO>[STAT] 0                    0                    0.000                0.000                
+UTC+8 2022-11-08 01:51:30.528|DCF|51554|INFO>
+[PERF]    total-ms    apply-ms   commit-ms l_accept-ms   append-ms r_accept-ms
+[PERF]        -nan        -nan        -nan        -nan        -nan        -nan
+UTC+8 2022-11-08 01:51:30.979|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:51:32.130|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:51:32.525|DCF|51548|INFO>[TIME][51548]rep_apply_proc                         0(us),count:        10,avg:         0(us)
+UTC+8 2022-11-08 01:51:33.281|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:51:33.526|DCF|51549|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-08 01:51:33.526|DCF|51549|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
+UTC+8 2022-11-08 01:51:33.530|DCF|51554|INFO>[STAT] DCFWriteCount        DCFWriteSize(MB)     DiskWriteAvg(ms)     SendPackSize(MB)     SendDelayAvg(ms)     SendWaitAvg(ms)      RecvDelayAvg(ms)     
+UTC+8 2022-11-08 01:51:33.530|DCF|51554|INFO>[STAT] 0                    0.000                0.000                0.000                0.000                0.000                0.000                
+UTC+8 2022-11-08 01:51:33.530|DCF|51554|INFO>[STAT] SendQueueLowCount    RecvQueueLowCount    SendQueueHighCount   RecvQueueHighCount   StgMemUsed(MB)       MecSendMem(MB)       MecRecvMem(MB)       
+UTC+8 2022-11-08 01:51:33.530|DCF|51554|INFO>[STAT] 0                    0                    0                    0                    0.000                16.647               0.000                
+UTC+8 2022-11-08 01:51:33.530|DCF|51554|INFO>[STAT] HBSendCount          HBRecvCount          HBRTTAvg(ms)         MecBuddyMem(MB)      
+UTC+8 2022-11-08 01:51:33.530|DCF|51554|INFO>[STAT] 0                    0                    0.000                0.000                
+UTC+8 2022-11-08 01:51:33.530|DCF|51554|INFO>
+[PERF]        -nan        -nan        -nan        -nan        -nan        -nan
+UTC+8 2022-11-08 01:51:34.025|DCF|51547|INFO>[TIME][51547]rep_follower_acceptlog_proc            0(us),count:         5,avg:         0(us)
+UTC+8 2022-11-08 01:51:34.025|DCF|51547|INFO>[TIME][51547]rep_acceptlog_proc                     0(us),count:         5,avg:         0(us)
+UTC+8 2022-11-08 01:51:34.433|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:51:35.584|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:51:36.527|DCF|51549|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-08 01:51:36.527|DCF|51549|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
+UTC+8 2022-11-08 01:51:36.532|DCF|51554|INFO>[STAT] DCFWriteCount        DCFWriteSize(MB)     DiskWriteAvg(ms)     SendPackSize(MB)     SendDelayAvg(ms)     SendWaitAvg(ms)      RecvDelayAvg(ms)     
+UTC+8 2022-11-08 01:51:36.532|DCF|51554|INFO>[STAT] 0                    0.000                0.000                0.000                0.000                0.000                0.000                
+UTC+8 2022-11-08 01:51:36.532|DCF|51554|INFO>[STAT] SendQueueLowCount    RecvQueueLowCount    SendQueueHighCount   RecvQueueHighCount   StgMemUsed(MB)       MecSendMem(MB)       MecRecvMem(MB)       
+UTC+8 2022-11-08 01:51:36.532|DCF|51554|INFO>[STAT] 0                    0                    0                    0                    0.000                16.647               0.000                
+UTC+8 2022-11-08 01:51:36.532|DCF|51554|INFO>[STAT] HBSendCount          HBRecvCount          HBRTTAvg(ms)         MecBuddyMem(MB)      
+UTC+8 2022-11-08 01:51:36.532|DCF|51554|INFO>[STAT] 0                    0                    0.000                0.000                
+UTC+8 2022-11-08 01:51:36.532|DCF|51554|INFO>
+[PERF]        -nan        -nan        -nan        -nan        -nan        -nan
+UTC+8 2022-11-08 01:51:36.735|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:51:37.525|DCF|51544|INFO>[STG]:stm id    stm fst   stm last    stg fst   stg last    applied cache begin stm mem used
+UTC+8 2022-11-08 01:51:37.525|DCF|51544|INFO>[STG]:     1          1          0          1          0          0           1            0
+UTC+8 2022-11-08 01:51:37.526|DCF|51548|INFO>[TIME][51548]rep_apply_proc                         0(us),count:        10,avg:         0(us)
+UTC+8 2022-11-08 01:51:37.887|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:51:39.038|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:51:39.527|DCF|51549|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-08 01:51:39.527|DCF|51549|INFO>[REP]         1        1        0        0        0 (0,0)            (0,0)           
+UTC+8 2022-11-08 01:51:40.189|DCF|51550|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:52:54.163|DCF|51794|INFO>[TIME][51794]rep_follower_acceptlog_proc            0(us),count:         1,avg:         0(us)
+UTC+8 2022-11-08 01:52:54.163|DCF|51796|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-08 01:52:54.163|DCF|51795|INFO>[TIME][51795]rep_apply_proc                         0(us),count:         1,avg:         0(us)
+UTC+8 2022-11-08 01:52:54.163|DCF|51794|INFO>[TIME][51794]rep_acceptlog_proc                   319(us),count:         1,avg:       319(us)
+UTC+8 2022-11-08 01:52:54.163|DCF|51797|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:52:54.164|DCF|51796|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
+UTC+8 2022-11-08 01:52:55.314|DCF|51797|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:52:56.465|DCF|51797|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:52:57.164|DCF|51796|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-08 01:52:57.164|DCF|51796|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
+UTC+8 2022-11-08 01:52:57.166|DCF|51801|INFO>[STAT] DCFWriteCount        DCFWriteSize(MB)     DiskWriteAvg(ms)     SendPackSize(MB)     SendDelayAvg(ms)     SendWaitAvg(ms)      RecvDelayAvg(ms)     
+UTC+8 2022-11-08 01:52:57.166|DCF|51801|INFO>[STAT] 0                    0.000                0.000                0.000                0.000                0.000                0.000                
+UTC+8 2022-11-08 01:52:57.166|DCF|51801|INFO>[STAT] SendQueueLowCount    RecvQueueLowCount    SendQueueHighCount   RecvQueueHighCount   StgMemUsed(MB)       MecSendMem(MB)       MecRecvMem(MB)       
+UTC+8 2022-11-08 01:52:57.166|DCF|51801|INFO>[STAT] 0                    0                    0                    0                    0.000                16.647               0.000                
+UTC+8 2022-11-08 01:52:57.166|DCF|51801|INFO>[STAT] HBSendCount          HBRecvCount          HBRTTAvg(ms)         MecBuddyMem(MB)      
+UTC+8 2022-11-08 01:52:57.166|DCF|51801|INFO>[STAT] 0                    0                    0.000                0.000                
+UTC+8 2022-11-08 01:52:57.166|DCF|51801|INFO>
+[PERF]    total-ms    apply-ms   commit-ms l_accept-ms   append-ms r_accept-ms
+[PERF]        -nan        -nan        -nan        -nan        -nan        -nan
+UTC+8 2022-11-08 01:52:57.616|DCF|51797|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:52:58.768|DCF|51797|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:52:59.163|DCF|51795|INFO>[TIME][51795]rep_apply_proc                         0(us),count:        10,avg:         0(us)
+UTC+8 2022-11-08 01:52:59.164|DCF|51794|INFO>[TIME][51794]rep_follower_acceptlog_proc            0(us),count:         4,avg:         0(us)
+UTC+8 2022-11-08 01:52:59.164|DCF|51794|INFO>[TIME][51794]rep_acceptlog_proc                     0(us),count:         4,avg:         0(us)
+UTC+8 2022-11-08 01:52:59.919|DCF|51797|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-08 01:53:00.165|DCF|51796|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-08 01:53:00.165|DCF|51796|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
+UTC+8 2022-11-08 01:53:00.168|DCF|51801|INFO>[STAT] DCFWriteCount        DCFWriteSize(MB)     DiskWriteAvg(ms)     SendPackSize(MB)     SendDelayAvg(ms)     SendWaitAvg(ms)      RecvDelayAvg(ms)     
+UTC+8 2022-11-08 01:53:00.168|DCF|51801|INFO>[STAT] 0                    0.000                0.000                0.000                0.000                0.000                0.000                
+UTC+8 2022-11-08 01:53:00.168|DCF|51801|INFO>[STAT] SendQueueLowCount    RecvQueueLowCount    SendQueueHighCount   RecvQueueHighCount   StgMemUsed(MB)       MecSendMem(MB)       MecRecvMem(MB)       
+UTC+8 2022-11-08 01:53:00.169|DCF|51801|INFO>[STAT] 0                    0                    0                    0                    0.000                16.647               0.000                
+UTC+8 2022-11-08 01:53:00.169|DCF|51801|INFO>[STAT] HBSendCount          HBRecvCount          HBRTTAvg(ms)         MecBuddyMem(MB)      
+UTC+8 2022-11-08 01:53:00.169|DCF|51801|INFO>[STAT] 0                    0                    0.000                0.000                
+UTC+8 2022-11-08 01:53:00.169|DCF|51801|INFO>
+[PERF]        -nan        -nan        -nan        -nan        -nan        -nan
+UTC+8 2022-11-08 01:53:01.070|DCF|51797|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
