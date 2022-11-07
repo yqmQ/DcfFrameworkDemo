@@ -1,0 +1,28 @@
+UTC+8 2022-11-06 21:11:08.460|DCF|52181|ERROR>[MEC]cs_connect fail,peer_url=172.19.0.203:20200, err code 501, err msg Failed to establish tcp connection to [172.19.0.203]:[20200], errno 111.
+UTC+8 2022-11-06 21:11:08.460|DCF|52183|ERROR>[MEC]cs_connect fail,peer_url=172.19.0.204:20200, err code 501, err msg Failed to establish tcp connection to [172.19.0.204]:[20200], errno 111.
+UTC+8 2022-11-06 21:11:08.460|DCF|52185|ERROR>[MEC]data send_pipe to dst_inst[2] priv[0] is not ready.
+UTC+8 2022-11-06 21:11:08.460|DCF|52182|ERROR>[MEC]cs_connect fail,peer_url=172.19.0.203:20200, err code 501, err msg Failed to establish tcp connection to [172.19.0.203]:[20200], errno 111.
+UTC+8 2022-11-06 21:11:08.461|DCF|52185|ERROR>[MEC]health_chk,mec_send_data failed.stream_id=1,cmd=1,src_node=1,dest_node=2
+UTC+8 2022-11-06 21:11:08.461|DCF|52185|ERROR>[MEC]data send_pipe to dst_inst[3] priv[0] is not ready.
+UTC+8 2022-11-06 21:11:08.460|DCF|52184|ERROR>[MEC]cs_connect fail,peer_url=172.19.0.204:20200, err code 501, err msg Failed to establish tcp connection to [172.19.0.204]:[20200], errno 111.
+UTC+8 2022-11-06 21:11:08.461|DCF|52185|ERROR>[MEC]health_chk,mec_send_data failed.stream_id=1,cmd=1,src_node=1,dest_node=3
+UTC+8 2022-11-06 21:11:08.461|DCF|52185|ERROR>[MEC]data send_pipe to dst_inst[2] priv[1] is not ready.
+UTC+8 2022-11-06 21:11:08.461|DCF|52185|ERROR>[MEC]health_chk,mec_send_data failed.stream_id=1,cmd=2,src_node=1,dest_node=2
+UTC+8 2022-11-06 21:11:08.461|DCF|52185|ERROR>[MEC]data send_pipe to dst_inst[3] priv[1] is not ready.
+UTC+8 2022-11-06 21:11:08.461|DCF|52185|ERROR>[MEC]health_chk,mec_send_data failed.stream_id=1,cmd=2,src_node=1,dest_node=3
+UTC+8 2022-11-06 21:11:08.480|DCF|52189|ERROR>[MEC]data send_pipe to dst_inst[2] priv[0] is not ready.
+UTC+8 2022-11-06 21:11:08.480|DCF|52189|ERROR>[MEC]data send_pipe to dst_inst[3] priv[0] is not ready.
+UTC+8 2022-11-06 21:11:08.480|DCF|52189|ERROR>[MEC]broad cast failed, broad cast insts 2,3, success insts NA
+UTC+8 2022-11-07 14:04:36.820|DCF|18379|ERROR>[MEC]cs_connect fail,peer_url=172.19.0.203:20200, err code 501, err msg Failed to establish tcp connection to [172.19.0.203]:[20200], errno 111.
+UTC+8 2022-11-07 14:04:36.820|DCF|18380|ERROR>[MEC]cs_connect fail,peer_url=172.19.0.203:20200, err code 501, err msg Failed to establish tcp connection to [172.19.0.203]:[20200], errno 111.
+UTC+8 2022-11-07 14:04:36.820|DCF|18383|ERROR>[MEC]data send_pipe to dst_inst[2] priv[0] is not ready.
+UTC+8 2022-11-07 14:04:36.820|DCF|18383|ERROR>[MEC]health_chk,mec_send_data failed.stream_id=1,cmd=1,src_node=1,dest_node=2
+UTC+8 2022-11-07 14:04:36.820|DCF|18383|ERROR>[MEC]data send_pipe to dst_inst[3] priv[0] is not ready.
+UTC+8 2022-11-07 14:04:36.820|DCF|18383|ERROR>[MEC]health_chk,mec_send_data failed.stream_id=1,cmd=1,src_node=1,dest_node=3
+UTC+8 2022-11-07 14:04:36.821|DCF|18383|ERROR>[MEC]data send_pipe to dst_inst[2] priv[1] is not ready.
+UTC+8 2022-11-07 14:04:36.821|DCF|18383|ERROR>[MEC]health_chk,mec_send_data failed.stream_id=1,cmd=2,src_node=1,dest_node=2
+UTC+8 2022-11-07 14:04:36.821|DCF|18383|ERROR>[MEC]data send_pipe to dst_inst[3] priv[1] is not ready.
+UTC+8 2022-11-07 14:04:36.821|DCF|18383|ERROR>[MEC]health_chk,mec_send_data failed.stream_id=1,cmd=2,src_node=1,dest_node=3
+UTC+8 2022-11-07 14:04:36.839|DCF|18387|ERROR>[MEC]data send_pipe to dst_inst[2] priv[0] is not ready.
+UTC+8 2022-11-07 14:04:36.839|DCF|18387|ERROR>[MEC]data send_pipe to dst_inst[3] priv[0] is not ready.
+UTC+8 2022-11-07 14:04:36.839|DCF|18387|ERROR>[MEC]broad cast failed, broad cast insts 2,3, success insts NA

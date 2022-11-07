@@ -1,0 +1,28 @@
+UTC+8 2022-11-06 20:43:42.204|DCF|44315|INFO>[TIME][44315]rep_apply_proc                         0(us),count:         1,avg:         0(us)
+UTC+8 2022-11-06 20:43:42.204|DCF|44317|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-06 20:43:42.204|DCF|44316|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-06 20:43:42.205|DCF|44316|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
+UTC+8 2022-11-06 20:54:01.283|DCF|47625|INFO>[TIME][47625]rep_follower_acceptlog_proc            0(us),count:         1,avg:         0(us)
+UTC+8 2022-11-06 20:54:01.283|DCF|47625|INFO>[TIME][47625]rep_acceptlog_proc                   479(us),count:         1,avg:       479(us)
+UTC+8 2022-11-06 20:54:01.283|DCF|47628|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-06 20:54:01.285|DCF|47627|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-06 20:54:01.285|DCF|47627|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
+UTC+8 2022-11-06 20:54:01.285|DCF|47626|INFO>[TIME][47626]rep_apply_proc                      1633(us),count:         1,avg:      1633(us)
+UTC+8 2022-11-06 21:03:26.329|DCF|51491|INFO>[TIME][51491]rep_follower_acceptlog_proc            0(us),count:         1,avg:         0(us)
+UTC+8 2022-11-06 21:03:26.330|DCF|51491|INFO>[TIME][51491]rep_acceptlog_proc                   324(us),count:         1,avg:       324(us)
+UTC+8 2022-11-06 21:03:26.330|DCF|51494|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-06 21:03:26.331|DCF|51492|INFO>[TIME][51492]rep_apply_proc                      1314(us),count:         1,avg:      1314(us)
+UTC+8 2022-11-06 21:03:26.331|DCF|51493|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-06 21:03:26.331|DCF|51493|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
+UTC+8 2022-11-06 21:11:08.478|DCF|52191|INFO>[TIME][52191]rep_follower_acceptlog_proc            0(us),count:         1,avg:         0(us)
+UTC+8 2022-11-06 21:11:08.479|DCF|52191|INFO>[TIME][52191]rep_acceptlog_proc                   329(us),count:         1,avg:       329(us)
+UTC+8 2022-11-06 21:11:08.479|DCF|52194|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-06 21:11:08.480|DCF|52193|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-06 21:11:08.480|DCF|52192|INFO>[TIME][52192]rep_apply_proc                      1789(us),count:         1,avg:      1789(us)
+UTC+8 2022-11-06 21:11:08.480|DCF|52193|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
+UTC+8 2022-11-07 14:04:36.837|DCF|18389|INFO>[TIME][18389]rep_follower_acceptlog_proc            0(us),count:         1,avg:         0(us)
+UTC+8 2022-11-07 14:04:36.838|DCF|18390|INFO>[TIME][18390]rep_apply_proc                         0(us),count:         1,avg:         0(us)
+UTC+8 2022-11-07 14:04:36.838|DCF|18389|INFO>[TIME][18389]rep_acceptlog_proc                   320(us),count:         1,avg:       320(us)
+UTC+8 2022-11-07 14:04:36.838|DCF|18392|INFO>commit_cnt=0, cur_lat=0, flow_ctrl_val=10
+UTC+8 2022-11-07 14:04:36.839|DCF|18391|INFO>[REP] stream_id  node_id     role   leader     term commit_index     accept_index    
+UTC+8 2022-11-07 14:04:36.839|DCF|18391|INFO>[REP]         1        1        5        1        1 (0,0)            (0,0)           
