@@ -279,7 +279,7 @@ int main(int argc, char *argv[])
         printf("WARNING,CAN NOT START DCF IN %.2fs.\n", duration);
     }
     inputBuffer *input_buffer = newInputBuffer();
-    int Command_buffer;
+    
     Print_REPL();
     // Test framework
     do
