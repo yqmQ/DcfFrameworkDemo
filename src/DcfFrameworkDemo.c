@@ -210,7 +210,6 @@ void Exit_Dcf(inputBuffer *buf)
     }
 }
 
-char buf[1024] = {'\0'};
 void Read_Dcf_start_Config(char *config)
 {
     int fd = open("../DcfFrameworkDemoConfig.json", O_RDONLY);
@@ -220,24 +219,25 @@ void Read_Dcf_start_Config(char *config)
         exit(EXIT_FAILURE);
     }
     int len = read(fd, config, 1024);
-    if(len<0){
+    if (len < 0)
+    {
         printf("The start config is NULL.\n");
     }
 
     close(fd);
-
 }
 
 int main(int argc, char *argv[])
 { // Read_Buffer is designed for dcf_read.
-    char *dcf_start_config=(char *)malloc(1024);
-    if(dcf_start_config==NULL){
+    char *dcf_start_config = (char *)malloc(1024);
+    if (dcf_start_config == NULL)
+    {
         printf("Can't allocate memory.\n");
     }
-     Read_Dcf_start_Config(dcf_start_config);
+    Read_Dcf_start_Config(dcf_start_config);
     if (!Set_dcf_param())
     {
-        printf("Set Dcf params fail,exit!\n");
+         printf("Set Dcf params fail,exit!\n");
         exit(EXIT_FAILURE);
     }
     if (!RegisterDcfCallBacks())
@@ -255,7 +255,7 @@ int main(int argc, char *argv[])
     start = clock();
     while (((double)(clock() - start) / CLOCKS_PER_SEC) < duration)
     {
-        if (dcf_start(1,dcf_start_config) != 0)
+        if (dcf_start(1, dcf_start_config) != 0)
         {
 
             if (((double)(clock() - print_last_time) / CLOCKS_PER_SEC) > 1)
@@ -277,18 +277,18 @@ int main(int argc, char *argv[])
 
     {
         printf("WARNING,CAN NOT START DCF IN %.2fs.\n", duration);
-        exit(EXIT_FAILURE);
     }
     inputBuffer *input_buffer = newInputBuffer();
     int Command_buffer;
     Print_REPL();
-    // 测试框架
+    // Test framework
     do
     {
         Print_Prompt();
         readCommand(input_buffer);
         if (strcmp(input_buffer->buffer, ".exit") == 0)
         {
+            free(dcf_start_config);
             Exit_Dcf(input_buffer);
         }
         // if (dcf_write(1,) != 0)
