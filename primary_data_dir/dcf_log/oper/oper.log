@@ -1,1 +1,0 @@
-UTC+8 2022-11-09 20:36:05.440|DCF|31405|INFO>dcf start, node_id=1 cfg_str=[{"stream_id" : 1, "node_id" : 1, "ip" : "172.19.0.202", "port" : 20221,"role" : "LEADER"}, {"stream_id" : 1, "node_id" : 2, "ip" : "172.19.0.203", "port" : 20222, "role" : "FOLLOWER"}, {"stream_id" : 1, "node_id" : 3, "ip" : "172.19.0.204", "port" : 20223, "role" : "FOLLOWER"} ]
